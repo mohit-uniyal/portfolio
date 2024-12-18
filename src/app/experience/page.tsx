@@ -110,7 +110,7 @@ export default function Experience() {
   ];
     
   return (
-    <div className="w-full overflow-y-auto">
+    <div className="w-full h-full rounded-md overflow-y-auto">
       <Timeline data={data} />
     </div>
   );

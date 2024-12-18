@@ -5,7 +5,9 @@ import {
   IconArrowLeft,
   IconBrandTabler,
   IconSettings,
-  IconBuildings
+  IconBuildings,
+  IconPencil,
+  IconUserSearch
 } from "@tabler/icons-react";
 import Link from "next/link";
 import { motion } from "framer-motion";
@@ -32,17 +34,17 @@ export function SidebarDemo({children}: SidebarDemoProps) {
       ),
     },
     {
-      label: "Settings",
+      label: "Projects",
       href: "#",
       icon: (
-        <IconSettings className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
+        <IconPencil className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
       ),
     },
     {
-      label: "Logout",
+      label: "About",
       href: "#",
       icon: (
-        <IconArrowLeft className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
+        <IconUserSearch className="text-neutral-700 dark:text-neutral-200 h-5 w-5 flex-shrink-0" />
       ),
     },
   ];

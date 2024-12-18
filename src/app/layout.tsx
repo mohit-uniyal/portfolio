@@ -19,7 +19,9 @@ export default function RootLayout({
       <body>
         <SidebarProvider>
             <SidebarDemo>
-              {children}
+              <div className="w-full p-2">
+                {children}
+              </div>
             </SidebarDemo>
         </SidebarProvider>
       </body>
